@@ -6,17 +6,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="12dp"
+        android:padding="@dimen/small"
         tools:context=".MainActivity">
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="12dp"
-    />
+              android:layout_marginBottom="@dimen/small"
+              android:hint="@string/num1"
+              android:inputType="number"
+        />
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="12dp"
+              android:layout_marginBottom="@dimen/small"
+              android:hint="@string/num2"
+              android:inputType="number"
 
     />
 
@@ -48,8 +52,9 @@
 
     </LinearLayout>
 
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-              android:text="00"
+    <TextView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/resultado"
               android:textSize="90sp"
               android:gravity="center"
     />

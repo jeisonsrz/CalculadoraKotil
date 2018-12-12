@@ -93,7 +93,51 @@ val c = a + b
 
 
 
+//Bifurcaciones
+
+fun testIf(edad:Int){
+    val mayor = if(edad< 18) false else true
+
+    when (edad){
+        in 0..10 -> println("Niño")
+        in 10..17 -> println("Joven")
+        in 18..30 -> println("Adulto Joven")
+        in 31 until 40 -> println("Adulto")
+    }
+
+        val obj:Any = 10
+        when(obj){
+            is Int -> obj + 10
+            is String -> obj.substring(10)
+        }
+
+        val menor = when(edad){
+            in 0..17 -> "menor"
+            else -> "Mayor"
+        }
+
+    for(i in 0..10){
+
+    }
+
+    for(i in 0 until 10){
+
+    }
+
+    val frutas = listOf("Manzana","Pera","Tomate")
+
+    for((indes,fruta) in frutas.withIndex()){
+
+    }
+
+}
 
 
+//Arreglos y Tuplas
 
+val color2:Pair<Int, String> = Pair(22,"Rojo")
+val color3:Pair<Int, String> = 22 to "Rojo"
+
+val colores4:List<Int> = listOf(12313,12313,1231312)
+val coloresMu:MutableList<Int> = mutableListOf(123,123213,123131,1231)
 

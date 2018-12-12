@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">Calculadora</string>
-    <string name="add">Sum</string>
-    <string name="Res">Res</string>
+    <string name="app_name">Calculator</string>
+    <string name="add">Add</string>
+    <string name="Res">Sub</string>
     <string name="Div">Div</string>
     <string name="mul">Mul</string>
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+    <string name="resultado">00</string>
 
 </resources>
