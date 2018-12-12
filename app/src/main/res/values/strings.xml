@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Kotlin Ex</string>
+    <string name="app_name">Calculadora</string>
+    <string name="add">Sum</string>
+    <string name="Res">Res</string>
+    <string name="Div">Div</string>
+    <string name="Mul">Mul</string>
 </resources>
