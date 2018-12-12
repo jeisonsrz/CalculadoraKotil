@@ -3,5 +3,6 @@
     <string name="add">Sum</string>
     <string name="Res">Res</string>
     <string name="Div">Div</string>
-    <string name="Mul">Mul</string>
+    <string name="mul">Mul</string>
+
 </resources>
