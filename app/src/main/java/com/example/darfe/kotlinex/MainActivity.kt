@@ -3,7 +3,7 @@ package com.example.darfe.kotlinex
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_calculadoraConstrain.*
+import kotlinx.android.synthetic.main.activity_calculadoraconstrain.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_calculadoraConstrain)
+        setContentView(R.layout.activity_calculadoraconstrain)
 
         btnSum.setOnClickListener(this::operar)
         btnRes.setOnClickListener(this::operar)
